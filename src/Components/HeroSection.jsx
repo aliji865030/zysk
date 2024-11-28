@@ -1,7 +1,7 @@
 import React from 'react'
 import { BsArrowRight } from "react-icons/bs";
 import { FiPlayCircle } from "react-icons/fi";
-import { fLogo } from './data';
+import { fdata, fLogo } from './data';
 
 const HeroSection = () => {
   return (
@@ -31,6 +31,22 @@ const HeroSection = () => {
                 )
             })}
         </div>
+      </div>
+      <div className='mt-[8rem]'>
+        <p className='text-[12px] font-semibold text-purple-600'>Features</p>
+        <p className='text-[32px] font-normal mt-1'>Analytics that feels like it’s from the future</p>
+        <p className='text-gray-700 mt-1'>Powerful, self-serve product and growth analytics to help you convert, engage, <br /> and retain more users. Trusted by over 4,000 startups.</p>
+      </div>
+      <div className='flex flex-wrap w-[80%] gap-5 justify-center items-center mt-[4rem]'>
+        {fdata.map((item,index)=>{
+            return(
+                <div key={index} className='w-[350px] flex flex-col justify-center items-center'>
+                    <img src={item.img} className='w-12 mt-3' alt="" />
+                    <p className='font-semibold mt-3'>{item.heading}</p>
+                    <p className='text-[14px] text-gray-700 mt-2'>{item.des}</p>
+                </div>
+            )
+        })}
       </div>
     </div>
   )
