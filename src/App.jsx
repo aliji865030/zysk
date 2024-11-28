@@ -1,9 +1,12 @@
 import React from 'react'
+import Nav from './Components/Nav'
+import HeroSection from './Components/HeroSection'
 
 const App = () => {
   return (
-    <div>
-      hiiiiiiiiiiiiiiiiiii
+    <div className='w-screen'>
+      <Nav/>
+      <HeroSection/>
     </div>
   )
 }
