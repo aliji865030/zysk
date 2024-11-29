@@ -1,8 +1,26 @@
-# React + Vite
+# Untitled Web Application
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+🚀 **[Live Demo](https://zysk-dujd.vercel.app/)**  
+Experience the application live by clicking the link above.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
+
+- **Responsive Design:** Fully responsive UI for all screen sizes.
+- **Hero Section:** A visually appealing hero section with key features and CTA buttons.
+- **FAQ Section:** A collapsible FAQ section for frequently asked questions.
+- **Footer:** Organized footer with navigational links.
+- **Dynamic Navigation:** Modern navigation bar with dropdowns and responsive toggling.
+- **Reusable Components:** Modular design for maintainability.
+
+---
+
+## Technologies Used
+
+- **Frontend:**
+  - React.js
+  - Tailwind CSS
+  - React Icons
+- **State Management:**
+  - Local component states for dynamic features.
