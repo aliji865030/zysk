@@ -1,5 +1,6 @@
 import React from "react";
 import { IoIosArrowDown } from "react-icons/io";
+import { IoReorderThreeOutline } from "react-icons/io5";
 
 const Nav = () => {
   return (
@@ -9,7 +10,7 @@ const Nav = () => {
           <img src="Logo.png" className="w-[130px]" alt="logo" />
         </div>
         <div>
-          <ul className="flex justify-center items-center gap-10">
+          <ul className=" hidden md:flex justify-center items-center gap-10">
             <li>Home</li>
             <li className="flex justify-center items-center gap-2">
               Products <IoIosArrowDown />
@@ -21,8 +22,11 @@ const Nav = () => {
           </ul>
         </div>
       </div>
-      <div>
+      <div className=" hidden md:flex">
         <img src="userLogo.png" className="w-8" alt="" />
+      </div>
+      <div className="md:hidden text-[28px]">
+      <IoReorderThreeOutline />
       </div>
     </div>
   );

@@ -6,23 +6,23 @@ import { faqData } from "./data";
 
 const Faq = () => {
   return (
-    <div className="py-[4rem] flex flex-col justify-center items-center text-center">
+    <div className="py-2 sm:py-[4rem] flex flex-col justify-center items-center text-center">
       <div>
-        <p className="text-[28px] font-medium">Frequently asked questions</p>
-        <p className="text-gray-700">
+        <p className="text-[18px] sm:text-[28px] font-medium">Frequently asked questions</p>
+        <p className="text-gray-700 text-[12px] sm:text-lg px-2">
           Everything you need to know about the product and billing.
         </p>
       </div>
-      <div className="flex flex-col justify-center items-center w-[50%] text-start gap-8 py-[4rem]">
+      <div className="flex flex-col justify-center items-center w-[90%] sm:w-[50%] text-start gap-8 py-[4rem]">
         {faqData.map((item, index) => {
           return index === 0 ? (
             <div
               key={index}
               className="flex justify-center items-center text-start"
             >
-              <div className="min-w-[80%]">
-                <p className="font-medium">Is there a free trial available?</p>
-                <p className="text-[14px] text-gray-700">
+              <div className="w-[90%] sm:min-w-[80%]">
+                <p className="text-[14px] sm:text-lg font-medium">Is there a free trial available?</p>
+                <p className="text-[12px] sm:text-[14px] text-gray-700">
                   Yes, you can try us for free for 30 days. If you want, we’ll
                   provide you with a free, personalized 30-minute onboarding
                   call to get you up and running as soon as possible.
@@ -34,8 +34,8 @@ const Faq = () => {
             </div>
           ) : (
             <div className="flex justify-center items-center text-start">
-              <div className="min-w-[750px]">
-                <p className="font-medium">{item}</p>
+              <div className="w-[250px] sm:min-w-[500px] lg:min-w-[750px]">
+                <p className="text-[14px] sm:text-lg font-medium">{item}</p>
               </div>
               <div className=" cursor-pointer">
                 <CiCirclePlus />
