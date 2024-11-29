@@ -2,7 +2,7 @@ import React from 'react'
 import { RxArrowTopRight } from "react-icons/rx";
 import { blog } from './data';
 
-const Blog = () => {
+const Blogs = () => {
   return (
     <div className='flex flex-col justify-center items-center py-[4rem]'>
       <div className='w-[80%]'>
@@ -46,4 +46,4 @@ const Blog = () => {
   )
 }
 
-export default Blog;
+export default Blogs;

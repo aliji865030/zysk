@@ -4,6 +4,7 @@ import HeroSection from './Components/HeroSection'
 import Faq from './Components/Faq'
 import Blog from './Components/blog'
 import Footer from './Components/Footer'
+import Blogs from './Components/Blogs'
 
 const App = () => {
   return (
@@ -11,7 +12,7 @@ const App = () => {
       <Nav/>
       <HeroSection/>
       <Faq/>
-      <Blog/>
+      <Blogs/>
       <Footer/>
     </div>
   )
