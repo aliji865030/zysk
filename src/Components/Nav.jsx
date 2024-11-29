@@ -3,7 +3,7 @@ import { IoIosArrowDown } from "react-icons/io";
 
 const Nav = () => {
   return (
-    <div className="nav flex justify-between items-center px-[9rem]">
+    <div className="nav flex justify-around items-center">
       <div className="flex justify-center items-center gap-10">
         <div className="">
           <img src="Logo.png" className="w-[130px]" alt="logo" />

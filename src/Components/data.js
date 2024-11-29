@@ -41,3 +41,33 @@ export const faqData = [
     "How does billing work?",
     "How do I change my account email?"
 ]
+
+export const blog = [
+    {
+        img:"b1.png",
+        title:"Design",
+        heading:"UX review presentations",
+        des:"How do you create compelling presentations that wow your colleagues and impress your managers?",
+        avatar:"ba1.png",
+        avName:"Olivia Rhye",
+        avDate:"20 Jan 2024"
+    },
+    {
+        img:"b2.png",
+        title:"Product",
+        heading:"Migrating to Linear 101",
+        des:"Linear helps streamline software projects, sprints, tasks, and bug tracking. Here’s how to get started.",
+        avatar:"ba2.png",
+        avName:"Phoenix Baker",
+        avDate:"19 Jan 2024"
+    },
+    {
+        img:"b3.png",
+        title:"Software Engineering",
+        heading:"Building your API stack",
+        des:"The rise of RESTful APIs has been met by a rise in tools for creating, testing, and managing them.",
+        avatar:"ba3.png",
+        avName:"Lana Steiner",
+        avDate:"18 Jan 2024"
+    }
+]

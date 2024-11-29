@@ -44,7 +44,7 @@ const Faq = () => {
           );
         })}
       </div>
-      <div className="bg-[#f9fafb] flex justify-center items-center flex-col w-[70%] py-[2rem] gap-1">
+      <div className="bg-[#f9fafb] flex justify-center items-center flex-col w-[80%] py-[2rem] gap-1">
         <img src="ag.png" className="w-[80px]" alt="" />
         <p className="font-medium pt-3">Still have questions?</p>
         <p className="text-[13px] text-gray-600 pb-3">
