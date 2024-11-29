@@ -71,3 +71,30 @@ export const blog = [
         avDate:"18 Jan 2024"
     }
 ]
+
+export const footerData = [
+    {
+      title: "Product",
+      items: ["Overview", "Features", "Solutions", "New", "Tutorials", "Pricing", "Releases"],
+    },
+    {
+      title: "Company",
+      items: ["About us", "Careers","Press","News", "Media kit", "Contact"],
+    },
+    {
+      title: "Resources",
+      items: ["Blog", "Newsletter", "Events", "Help centre", "Tutorials", "Support"],
+    },
+    {
+      title: "Use cases",
+      items: ["Startups", "Enterprise", "Government", "SaaS centers", "Marketplaces", "Ecommerce"],
+    },
+    {
+      title: "Social",
+      items: ["Twitter", "LinkedIn", "Facebook", "GitHub", "AngelList", "Dribbble"],
+    },
+    {
+      title: "Legal",
+      items: ["Termes","Privacy","Cookies", "Licenses", "Settings", "Contact"],
+    },
+  ];
